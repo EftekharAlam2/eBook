@@ -11,7 +11,12 @@ const Navbar = () => {
     <nav className="flexBetween navbar">
       <div className="flex-1 flexStart gap-10">
         <Link href="/">
-          <Image src="/ReadifyWorm.svg" width={115} height={43} alt="" />
+          <Image
+            src="/ReadifyWorm.svg"
+            width={115}
+            height={43}
+            alt="ReadifyWorm"
+          />
         </Link>
         <ul className="xl:flex hidden text-small gap-7">
           {NavLinks.map((link) => (
